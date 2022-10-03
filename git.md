@@ -24,6 +24,12 @@ git push
 
 # Descargar cambios
 
+## Clonar repositorio
+
+```
+git clone <link>
+```
+
 ```
 git pull
 ```

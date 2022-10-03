@@ -28,7 +28,10 @@ console.log(++population);
 console.log(population > 6000000);
 console.log(population < 33000000);
 
-let description = 'Portugal is in Europe, and its 11 million people speak portuguese';
+let description = city+' is in '+country+ ", and its "+population+" people speak "+language;
 console.log(description);
 
 //STRINGS AND TEMPLATE LITERALS
+let descriptionNew = `${city} is in ${country}, and its ${population} people speak ${language}`;
+console.log(descriptionNew)
+
