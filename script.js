@@ -86,3 +86,11 @@ console.log(Boolean({}));
 console.log(Boolean(''));
 console.log(Boolean(NaN));
 
+const money = 0;
+
+if(money){
+    console.log('Dont spend it all');
+}else{
+    console.log('Get a job');
+}
+
