@@ -74,7 +74,7 @@ console.log(n);
 //NaN means invalid number
 
 console.log(typeof String(23));
-*/
+
 
 //TRUTHY AND FALSY VALUES
 //5 falsy values: 0, '', undefined, null, NaN
@@ -94,3 +94,39 @@ if(money){
     console.log('Get a job');
 }
 
+
+//EQUALITY OPERATORS
+
+const age = 18;
+const ageString = '18';
+
+//STRICT EQUALITY OPERATOR === it does not perform type coercion
+if(age===18) console.log("Equal ===");
+
+//LOOSE EQUALITY OPERATOR == it does perform type coercion
+if(ageString==18) console.log("Equal ==");
+
+//PROMPT FUNCTION
+const fav = Number(prompt("What is your fav number?"));
+console.log(fav);
+
+if(fav === 23) {
+    console.log("Cool! 23");
+}else if (fav === 7){
+    console.log("Cool! 7");
+}else if (fav === 9){
+    console.log("Cool! 9");
+}else{
+    console.log("Number is not 23 or 7 or 9");
+}
+
+//DIFFERENT OPERATOR
+if(fav !== 23){
+    console.log("Why not 23?");
+}
+
+*/
+
+
+//BASIC BOOLEAN LOGIC: THE AND, OR & NOT OPERATORS
+const age = 16
